@@ -1,0 +1,38 @@
+.mainrow {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.star {
+  right: 8px;
+  bottom: 8px;
+}
+
+.badgeDark {
+  color: #fff;
+  border-radius: 2px;
+  background-color: #343a40;
+  font-size: 11px;
+  padding: 5px 5px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.title {
+  color: #fff;
+  font-weight: 500;
+}

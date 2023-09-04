@@ -1,0 +1,13 @@
+/* .entity-preview:hover {
+  opacity: 1 !important;
+  filter: none !important;
+}
+ */
+
+.entityPreviewShowUp:hover .entity-preview-content {
+  -webkit-animation-name: zoomIn !important;
+  -moz-animation-name: zoomIn !important;
+  -o-animation-name: zoomIn !important;
+  -ms-animation-name: zoomIn !important;
+  animation-name: zoomIn !important;
+}
