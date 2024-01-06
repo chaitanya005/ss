@@ -93,18 +93,20 @@ const VeggieSection = () => {
     <Container>
       <TwoColumn>
         <ImageColumn>
-          <Image
-            style={{ maxWidth: "100%" }}
-            css={Object.assign(tw`bg-cover`, imageCss)}
-            src="/images/svg/home_vegie.svg"
-            imageBorder={false}
-            imageShadow={false}
-            imageContainerCss={tw`p-2!`}
-            imageCss={tw`w-20! h-20!`}
-            imageDecoratorBlob={true}
-            imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
-            onClick={handleOpen}
-          />
+          <a href="/shop/veggies">
+            <Image
+              style={{ maxWidth: "100%" }}
+              css={Object.assign(tw`bg-cover`, imageCss)}
+              src="/images/svg/home_vegie.svg"
+              imageBorder={false}
+              imageShadow={false}
+              imageContainerCss={tw`p-2!`}
+              imageCss={tw`w-20! h-20!`}
+              imageDecoratorBlob={true}
+              imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
+              // onClick={handleOpen}
+            />
+          </a>
           {/* imageDecoratorBlob && (
               <DecoratorBlob css={imageDecoratorBlobCss} />
             ) */}
@@ -119,15 +121,16 @@ const VeggieSection = () => {
             <PrimaryButton
               buttonRounded={true}
               as="a"
-              // href="/veggies/shop"
+              href="/shop/veggies"
               style={{
                 backgroundColor: "rgba(80,17,204)",
                 padding: "0.75rem 2rem",
                 cursor: "pointer",
+                color: "#fff",
               }}
-              onClick={handleOpen}
+              // onClick={handleOpen}
             >
-              Coming Soon!
+              Buy Now
             </PrimaryButton>
           </TextContent>
         </TextColumn>

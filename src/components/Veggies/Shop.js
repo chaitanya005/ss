@@ -192,7 +192,7 @@ const Shop = () => {
   const meta = {
     title: "Spont Store | Veggiess Shop",
     description: "Online Rythu baaazaar in Chirala",
-    canonical: "https://spontstore.com/veggies/shop",
+    canonical: "https://spontstore.com/shop/veggies",
     meta: {
       charset: "utf-8",
       name: {
@@ -1359,8 +1359,8 @@ transform: scale(1.05); */
                     <a className="content-link" href="/">
                       Home
                     </a>
-                    <span className="mx-2">\</span>
-                    <span>Veggies Shop</span>
+                    <span className="mx-2"> / </span>
+                    <span>Shop / Veggies</span>
                   </div>
                   <br />
                 </div>
@@ -1370,17 +1370,17 @@ transform: scale(1.05); */
         </section>
 
         <section className="section" style={{ marginTop: "4rem" }} id="section">
-          {/* <Paper component="form" className={classes.root}>
+          <Paper component="form" className={classes.root}>
             <InputBase
               className={classes.input}
               placeholder="Search Veggies"
               inputProps={{ "aria-label": "search google maps" }}
               onChange={(e) => handleSearch(e)}
             />
-          </Paper> */}
+          </Paper>
           <br />
           <br />
-          <div className="container">
+          {/* <div className="container">
             <h3
               style={{
                 margin: "auto",
@@ -1391,8 +1391,8 @@ transform: scale(1.05); */
             >
               Veggies are not Available Currently!
             </h3>
-          </div>
-          {/* 
+          </div> */}
+
           <div className="container">
             {isLoading ? <Loading /> : ""}
             <br />
@@ -1420,7 +1420,7 @@ transform: scale(1.05); */
                                   <div
                                     className="entity-preview-show-up entity-preview"
                                     onClick={() => handleAddToCart(veggie)}
-                                    // href={`/veggies/shop/product?id=${veggie.veggieId}`}
+                                    // href={`/shop/veggies/product?id=${veggie.veggieId}`}
                                   >
                                     <span className="embed-responsive embed-responsive-4by3">
                                       <img
@@ -1508,7 +1508,6 @@ transform: scale(1.05); */
                                 </article>
                               </div>
                             )}
-                            
                           </React.Fragment>
                         ))}
                       {hasMore ? (
@@ -1546,7 +1545,7 @@ transform: scale(1.05); */
                                 <div
                                   className="entity-preview-show-up entity-preview"
                                   onClick={() => handleAddToCart(veggie)}
-                                  // href={`/veggies/shop/product?id=${veggie.veggieId}`}
+                                  // href={`/shop/veggies/product?id=${veggie.veggieId}`}
                                 >
                                   <span className="embed-responsive embed-responsive-4by3">
                                     <img
@@ -1640,7 +1639,6 @@ transform: scale(1.05); */
               )}
             </div>
           </div>
-         */}
         </section>
         <Snackbar
           anchorOrigin={{ vertical, horizontal }}

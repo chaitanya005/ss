@@ -521,7 +521,7 @@ a {
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          href="/veggies/shop"
+                          href="/shop/veggies"
                           style={{ color: "#fff" }}
                         >
                           Veggies

@@ -98,7 +98,7 @@ const HomePage = () => {
                       <div className="entity-action-btns">
                         <a
                           className="btn-wide btn btn-theme-white-bordered"
-                          href="/veggies/shop"
+                          href="/shop/veggies"
                         >
                           shop now
                         </a>

@@ -443,7 +443,7 @@ const Header = () => {
             <Divider />
             <AccordionDetails>
               <Typography>
-                <a href="/veggies/shop" style={{ color: "#000" }}>
+                <a href="/shop/veggies" style={{ color: "#000" }}>
                   Veggies Shop
                 </a>
               </Typography>
@@ -546,6 +546,17 @@ const Header = () => {
             >
               <a href="/dryfruits">
                 <span>DRY FRUITS</span>
+              </a>
+            </Typography>
+
+            <Typography
+              // aria-owns={menanchorEl ? "men" : undefined}
+              aria-haspopup="true"
+              // onClick={handleMenPopoverOpen}
+              // onMouseOver={handleMenPopoverOpen}
+            >
+              <a href="/shop/veggies">
+                <span>VEGETABLES</span>
               </a>
             </Typography>
 
@@ -700,7 +711,7 @@ const Header = () => {
                 <Link to="/veggies">Veggies</Link>
               </MenuItem>
               <MenuItem>
-                <Link to="/veggies/shop">Veggies Shop</Link>
+                <Link to="/shop/veggies">Veggies Shop</Link>
               </MenuItem>
             </Menu> */}
 

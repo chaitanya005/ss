@@ -75,7 +75,7 @@ const OurProducts = () => {
           {storedVeggie &&
             storedVeggie.storeVeggies.slice(0, 6).map((veggie) => (
               <div className="col-sm-6 col-lg-4" key={veggie}>
-                <a href="/veggies/shop">
+                <a href="/shop/veggies">
                   <article className="entity-block entity-hover-shadow text-center entity-preview-show-up">
                     <div className="entity-preview">
                       <div className="embed-responsive embed-responsive-4by3">
@@ -339,7 +339,7 @@ const OurProducts = () => {
         </div>
       </div>
       <div className="section-footer">
-        <a className="btn-theme-white-bordered btn" href="/veggies/shop">
+        <a className="btn-theme-white-bordered btn" href="/shop/veggies">
           View all
         </a>
       </div>

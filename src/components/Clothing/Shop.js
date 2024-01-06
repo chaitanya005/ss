@@ -1378,7 +1378,7 @@ button, select {
                     Home
                   </a>
                   <span className="mx-2">\</span>
-                  <a className="content-link" href="/veggies/shop">
+                  <a className="content-link" href="/shop/veggies">
                     WOMEN
                   </a>
                   <span className="mx-2">\</span>

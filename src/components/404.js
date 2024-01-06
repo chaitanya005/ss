@@ -1136,7 +1136,7 @@ transform: scale(1.05); */
               Sorry! The page you're looking for is not Found!
             </h2>
 
-            <a className="btn btn-theme" href="/veggies/shop">
+            <a className="btn btn-theme" href="/shop/veggies">
               View Shop
             </a>
           </div>

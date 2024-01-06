@@ -226,7 +226,7 @@ const CheckoutPage = () => {
                   payment_dateTime,
                 })
                 .then(() => {
-                  // history.push("/veggies/shop");
+                  // history.push("/shop/veggies");
                   dispatch(
                     setOrderId({
                       orderId,
@@ -338,7 +338,7 @@ const CheckoutPage = () => {
           order,
         })
         .then(() => {
-          // history.push("/veggies/shop");
+          // history.push("/shop/veggies");
           dispatch(
             setOrderId({
               orderId,
@@ -354,7 +354,7 @@ const CheckoutPage = () => {
           order,
         })
         .then(() => {
-          // history.push("/veggies/shop");
+          // history.push("/shop/veggies");
           dispatch(
             setOrderId({
               orderId,
@@ -1522,7 +1522,7 @@ textarea.form-control {
                     Home
                   </a>
                   <span className="mx-2">\</span>
-                  <a className="content-link" href="/veggies/shop">
+                  <a className="content-link" href="/shop/veggies">
                     Shop
                   </a>
                   <span className="mx-2">\</span>
@@ -1737,12 +1737,12 @@ textarea.form-control {
                     ""
                   )}
                 </div>
-                <h3 className="text-title mb-4">Payment Details</h3>
+                {/* <h3 className="text-title mb-4">Payment Details</h3> */}
                 <form onClick={(e) => handlePaymentType(e)}>
                   <div className="grid row">
                     <div className="col-12">
                       <div className="form-groups">
-                        <div className="input-view-flat input-gray-shadow form-group">
+                        {/* <div className="input-view-flat input-gray-shadow form-group">
                           <div className="form-check">
                             <label>
                               <input
@@ -1755,7 +1755,6 @@ textarea.form-control {
                                 // onChange={(e) => handlePaymentType(e)}
                                 // onChange={() => console.log("slkdjflksdfjklsfj")}
                               />
-                              {/* <span className="form-check-icon"></span> */}
                               <div
                                 className="form-check-label"
                                 for="cash-on-payment"
@@ -1764,7 +1763,7 @@ textarea.form-control {
                               </div>
                             </label>
                           </div>
-                        </div>
+                        </div> */}
                         {/*
                           <div className="input-view-flat input-gray-shadow form-group">
                             <div className="form-check">
@@ -1792,7 +1791,7 @@ textarea.form-control {
                         */}
                       </div>
                     </div>
-                    <div className={classes.wrapper}>
+                    {/* <div className={classes.wrapper}>
                       <div className="col-12">
                         <div
                           className="btn-wider btn btn-theme"
@@ -1807,7 +1806,7 @@ textarea.form-control {
                           className={classes.buttonProgress}
                         />
                       )}
-                    </div>
+                    </div> */}
                   </div>
                 </form>
               </div>

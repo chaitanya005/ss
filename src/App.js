@@ -145,7 +145,7 @@ const App = () => {
             <Route exact path="/veggies">
               <VeggiesLandingPage />
             </Route>
-            <Route exact path="/veggies/shop">
+            <Route exact path="/shop/veggies">
               <Shop />
             </Route>
             {/* <Route exact path="/veggies/shop/product">
@@ -179,8 +179,8 @@ const App = () => {
               <Cashews />
             </Route>
             {/* <Route path="/resto">
-            <Restaurants />
-          </Route> */}
+              <Restaurants />
+            </Route> */}
             <Route path="/hello">
               <HomePageTwo />
             </Route>

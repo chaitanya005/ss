@@ -27,7 +27,7 @@ const ImgSlider = () => {
           </a>
         </Wrap>
         <Wrap>
-          <a href="/veggies/shop" className={styles.myBtnClass}>
+          <a href="/shop/veggies" className={styles.myBtnClass}>
             <img src="/images/svg/vegie_slide.svg" alt="" />
             <div className={styles.btnOver}>
               {" "}
